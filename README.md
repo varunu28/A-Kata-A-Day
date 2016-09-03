@@ -80,6 +80,12 @@ problems I solve here and I aim to continue this routine for next 180 days. I wi
 1. Special Multiples
 2. Count of positives and sum of negatives
 3. Find Maximum and Minimum Values of a List
+4. Lario and Muigi pipe problem
+5. Are they same
+6. Sum of numbers from 0 to N
+7. Sum the repeats
+8. What dominates your array
+9. Which are in
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
 
