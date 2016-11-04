@@ -86,6 +86,7 @@ problems I solve here and I aim to continue this routine for next 180 days. I wi
 7. Sum the repeats
 8. What dominates your array
 9. Which are in
+10. Don't Give Me 5
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
 
