@@ -77,6 +77,7 @@ problems I solve here and I aim to continue this routine for next 180 days. I wi
 70. Credit Card Mask
 
 ##Python
+
 1. Special Multiples
 2. Count of positives and sum of negatives
 3. Find Maximum and Minimum Values of a List
@@ -87,7 +88,8 @@ problems I solve here and I aim to continue this routine for next 180 days. I wi
 8. What dominates your array
 9. Which are in
 10. Don't Give Me 5
-11. New £5 notes collectors!
+11. New £5 notes collectors! 
+12. Title Case
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
 
