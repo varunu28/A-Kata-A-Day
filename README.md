@@ -93,5 +93,6 @@ problems I solve here and I aim to continue this routine for next 180 days. I wi
 13. Keep The Order 
 14. Dashitize It
 15. Even Fibonacci Sum
+16. Pair of gloves
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
