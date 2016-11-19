@@ -92,7 +92,6 @@ problems I solve here and I aim to continue this routine for next 180 days. I wi
 12. Title Case 
 13. Keep The Order 
 14. Dashitize It
+15. Even Fibonacci Sum
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
-
-I also post my approach on solving the Kata everyday on my blog: http://a-kata-a-day.blogspot.in/
