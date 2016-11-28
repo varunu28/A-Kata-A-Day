@@ -98,5 +98,6 @@ problems I solve here and I aim to continue this routine for next 180 days. I wi
 18. Multiples!
 19. Gap in Primes
 20. Ones and Zeros
+21. Nova polynomial add
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
