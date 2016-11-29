@@ -102,5 +102,6 @@ problems I solve here and I aim to continue this routine for next 180 days. I wi
 22. Find the missing letter
 23. Is every value in the array an array?
 24. Vowel one
+25. Sum of Triangular Numbers
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
