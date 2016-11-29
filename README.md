@@ -100,5 +100,6 @@ problems I solve here and I aim to continue this routine for next 180 days. I wi
 20. Ones and Zeros
 21. Nova polynomial add
 22. Find the missing letter
+23. Is every value in the array an array?
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
