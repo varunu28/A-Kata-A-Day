@@ -105,5 +105,6 @@ problems I solve here and I aim to continue this routine for next 180 days. I wi
 25. Sum of Triangular Numbers
 26. Numbers to Letters
 27. Borrower Speak
+28. Length of missing array
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
