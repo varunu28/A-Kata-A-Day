@@ -1,7 +1,7 @@
 # A-Kata-A-Day
 
-As a part of my learning Javascript journey I have taken a challenge to solve 1 Kata everyday from CodeWars. I will be storing the 
-problems I solve here and I aim to continue this routine for next 180 days. I will also be using Python to solve a few Katas.
+I have taken a challenge to solve 1 Kata everyday from CodeWars. I will be storing the 
+problems I solve here and I aim to solve a Kata a day. I will also be using Python and Javascript to solve the Katas.
 
 ###JAVASCRIPT
 
@@ -106,5 +106,7 @@ problems I solve here and I aim to continue this routine for next 180 days. I wi
 26. Numbers to Letters
 27. Borrower Speak
 28. Length of missing array
+29. Consecutive strings
+30. Nova polynomial Multiply
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
