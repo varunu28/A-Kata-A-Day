@@ -103,5 +103,7 @@ problems I solve here and I aim to continue this routine for next 180 days. I wi
 23. Is every value in the array an array?
 24. Vowel one
 25. Sum of Triangular Numbers
+26. Numbers to Letters
+27. Borrower Speak
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
