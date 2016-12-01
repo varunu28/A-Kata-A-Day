@@ -111,5 +111,6 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 31. Rectangle into Squares
 32. Identical Elements
 33. First non-repeating letter
+34. Simple fraction to mixed number converter
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
