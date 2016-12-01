@@ -110,5 +110,6 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 30. Nova polynomial Multiply
 31. Rectangle into Squares
 32. Identical Elements
+33. First non-repeating letter
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
