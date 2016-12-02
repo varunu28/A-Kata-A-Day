@@ -117,5 +117,8 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 37. Take a Ten Minute Walk
 38. Who likes it?
 39. Array.diff
+40. Valid Parentheses
+41. Largest 5 digit number in a series
+42. Moving Zeros To The End
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
