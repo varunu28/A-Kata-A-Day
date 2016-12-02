@@ -115,5 +115,7 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 35. String Evaluation
 36. Nova polynomial subtract
 37. Take a Ten Minute Walk
+38. Who likes it?
+39. Array.diff
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
