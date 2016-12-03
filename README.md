@@ -123,5 +123,6 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 43. Number of trailing zeros of N!
 44. Palindrome chain length
 45. Where are my anagrams at
+46. Pete, The Baker
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
