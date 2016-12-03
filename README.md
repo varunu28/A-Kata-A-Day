@@ -120,5 +120,7 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 40. Valid Parentheses
 41. Largest 5 digit number in a series
 42. Moving Zeros To The End
+43. Number of trailing zeros of N!
+44. Palindrome chain length
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
