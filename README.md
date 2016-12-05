@@ -126,5 +126,7 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 46. Pete, The Baker
 47. Balance The Arrays
 48. Prize Draw
+49. Playing with passphrases
+50. Crazed Templating
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
