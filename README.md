@@ -128,5 +128,7 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 48. Prize Draw
 49. Playing with passphrases
 50. Crazed Templating
+51. Simple Pig Latin
+52. Human Readable Time
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
