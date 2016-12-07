@@ -133,5 +133,7 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 53. The mean of two means
 54. String Reversing, Changing case, etc
 55. Write Number in Expanded Form
+56. Flatten Me
+57. Sum up the random string
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
