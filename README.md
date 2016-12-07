@@ -131,5 +131,7 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 51. Simple Pig Latin
 52. Human Readable Time
 53. The mean of two means
+54. String Reversing, Changing case, etc
+55. Write Number in Expanded Form
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
