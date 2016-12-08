@@ -135,5 +135,6 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 55. Write Number in Expanded Form
 56. Flatten Me
 57. Sum up the random string
+58. Don't Drink the Water
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
