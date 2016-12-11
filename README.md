@@ -137,5 +137,6 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 57. Sum up the random string
 58. Don't Drink the Water
 59. File Path Operations
+60. Fizz / Buzz
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
