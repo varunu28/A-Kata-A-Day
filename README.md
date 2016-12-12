@@ -138,5 +138,6 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 58. Don't Drink the Water
 59. File Path Operations
 60. Fizz / Buzz
+61. Format to the 2nd
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
