@@ -144,5 +144,9 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 64. Is a number prime?
 65. Averages of numbers
 66. All Inclusive?
+67. Boolean logic from scratch
+68. Vowel Count
+69. Square Every Digit
+70. Square(n) Sum
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
