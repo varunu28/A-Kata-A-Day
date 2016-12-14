@@ -142,5 +142,7 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 62. Bit Counting
 63. Stop gninnipS My sdroW!
 64. Is a number prime?
+65. Averages of numbers
+66. All Inclusive?
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
