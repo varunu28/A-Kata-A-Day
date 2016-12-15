@@ -148,5 +148,7 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 68. Vowel Count
 69. Square Every Digit
 70. Square(n) Sum
+71. You're a square!
+72. Descending Order
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
