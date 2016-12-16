@@ -150,5 +150,6 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 70. Square(n) Sum
 71. You're a square!
 72. Descending Order
+73. Sorting on planet Twisted-3-7
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
