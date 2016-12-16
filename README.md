@@ -76,7 +76,7 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 69. Sexy Primes
 70. Credit Card Mask
 
-###Python
+###PYTHON
 
 1. Special Multiples
 2. Count of positives and sum of negatives
@@ -151,5 +151,6 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 71. You're a square!
 72. Descending Order
 73. Sorting on planet Twisted-3-7
+74. Compare Strings by Sum of Chars
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
