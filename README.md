@@ -155,5 +155,7 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 75. Especially Joyful Numbers
 76. Breaking chocolate problem
 77. IQ Test
+78. Get the Middle Character
+79. Reversed Strings
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
