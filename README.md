@@ -152,5 +152,8 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 72. Descending Order
 73. Sorting on planet Twisted-3-7
 74. Compare Strings by Sum of Chars
+75. Especially Joyful Numbers
+76. Breaking chocolate problem
+77. IQ Test
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
