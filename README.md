@@ -157,5 +157,7 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 77. IQ Test
 78. Get the Middle Character
 79. Reversed Strings
+80. Calculate mean and concatenate string
+81. Pairing brackets
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
