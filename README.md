@@ -159,5 +159,7 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 79. Reversed Strings
 80. Calculate mean and concatenate string
 81. Pairing brackets
+82. Help the bookseller !
+83. List Filtering
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
