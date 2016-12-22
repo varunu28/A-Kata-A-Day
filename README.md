@@ -161,5 +161,9 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 81. Pairing brackets
 82. Help the bookseller !
 83. List Filtering
+84. How many times does it contain?
+85. Calculate Meal Total
+86. WeIrD StRiNg CaSe
+87. Duplicate Encoder
 
 My CodeWars profile: http://www.codewars.com/users/varunu28
