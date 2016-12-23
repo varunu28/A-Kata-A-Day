@@ -93,6 +93,7 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 85. Calculate Meal Total
 86. WeIrD StRiNg CaSe
 87. Duplicate Encoder
+88. Coprime Validator
 
 
 ###JAVASCRIPT
