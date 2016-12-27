@@ -97,6 +97,8 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 89. Naughty or Nice?
 90. Which string is worth more?
 91. Kebabize
+92. Missing number in Unordered Arithmetic Progression
+93. Digits explosion
 
 
 ###JAVASCRIPT
