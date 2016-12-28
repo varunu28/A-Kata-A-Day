@@ -12,13 +12,14 @@ as a string of only digits. It should return a five digit integer. The number pa
 digits. 
 '''
 
+
 def solution(digits):
     large = 0
     i = 0
     while i < len(digits) - 4:
-    	if int(digits[i:i+5]) > large:
-    		large = int(digits[i:i+5])
-    	i += 1
+        if int(digits[i:i+5]) > large:
+            large = int(digits[i:i+5])
+        i += 1
     return large
 
 # Test Case

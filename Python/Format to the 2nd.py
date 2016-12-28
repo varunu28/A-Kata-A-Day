@@ -17,18 +17,19 @@ Write a function print_nums(n1, n2, n3, ...) that takes a variable number of arg
 string to be printed out.
 '''
 
-def print_nums(*args):
-	if len(args) == 0:
-		return ''
-	args_arr = sorted(args)
-	n = len(str(args_arr[-1]))
-	ans = ''
-	for i in args:
-		if len(str(i)) < n:
-			ans += '0'*(n-len(str(i))) + str(i)
-			ans += '\\n'
-		else:
-			ans += str(i) + '\\n'
-	return ans[0:len(ans)-2].replace('\\n', '\n')
 
-print(print_nums(2,3,4,5,11,332))
+def print_nums(*args):
+    if len(args) == 0:
+        return ''
+    args_arr = sorted(args)
+    n = len(str(args_arr[-1]))
+    ans = ''
+    for i in args:
+        if len(str(i)) < n:
+            ans += '0'*(n-len(str(i))) + str(i)
+            ans += '\\n'
+        else:
+            ans += str(i) + '\\n'
+    return ans[0:len(ans)-2].replace('\\n', '\n')
+
+print(print_nums(2, 3, 4, 5, 11, 332))

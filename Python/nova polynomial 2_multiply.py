@@ -14,15 +14,16 @@ poly_multiply([1, 2], [1] ) = [1, 2]
 poly_multiply([2, 4], [4, 5] ) = [8, 26, 20]
 '''
 
+
 def poly_multiply(p1, p2):
-	res = [0]*(len(p1)+len(p2)-1)
-	for o1,i1 in enumerate(p1):
-		for o2,i2 in enumerate(p2):
-			res[o1+o2] += i1*i2
-	if res.count(0) == len(res):
-		return []
-	else:
-		return res
+    res = [0]*(len(p1)+len(p2)-1)
+    for o1, i1 in enumerate(p1):
+        for o2, i2 in enumerate(p2):
+            res[o1+o2] += i1*i2
+    if res.count(0) == len(res):
+        return []
+    else:
+        return res
 
 # Test Case
 

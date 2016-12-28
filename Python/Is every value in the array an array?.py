@@ -13,11 +13,12 @@ Examples:
 [{1:1},{2:2}] => false
 '''
 
+
 def arr_check(arr):
-	for i in arr:
-		if isinstance(i, list) == False:
-			return False
-	return True
+    for i in arr:
+        if isinstance(i, list) == False:
+            return False
+    return True
 
 # Test Case
 

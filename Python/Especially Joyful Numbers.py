@@ -23,13 +23,14 @@ product of its digit sum, and its digit sum reversed, equals n. Otherwise return
 Take the positive integers to be 1,2,3,4,...
 '''
 
+
 def numberJoy(n):
-	sum_n = sum([int(i) for i in str(n)])
-	if n%sum_n != 0:
-		return False
-	if sum_n*(int(str(sum_n)[::-1])) != n:
-		return False
-	return True
+    sum_n = sum([int(i) for i in str(n)])
+    if n % sum_n != 0:
+        return False
+    if sum_n*(int(str(sum_n)[::-1])) != n:
+        return False
+    return True
 
 # Test Cases
 

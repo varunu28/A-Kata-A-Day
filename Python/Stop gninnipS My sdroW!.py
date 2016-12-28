@@ -13,16 +13,17 @@ spinWords( "This is a test") => returns "This is a test"
 spinWords( "This is another test" )=> returns "This is rehtona test"
 '''
 
+
 def spin_words(sentence):
     # Your code goes here
     arr = sentence.split()
     ans = []
     for i in arr:
-    	if len(i) >= 5:
-    		ans.append(i[::-1])
-    	else:
-    		ans.append(i)
+        if len(i) >= 5:
+            ans.append(i[::-1])
+        else:
+            ans.append(i)
     return ' '.join(ans)
-    
+
 
 print(spin_words("Welcome to the world"))

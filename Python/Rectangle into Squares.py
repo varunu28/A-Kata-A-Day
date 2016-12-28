@@ -19,20 +19,21 @@ You will return an array with the size of each of the squares.
   sqInRect(3, 5) should return [3, 2, 1, 1]
 '''
 
-def sqInRect(lng, wdth):
-	if lng == wdth:
-		return None
-	ans = []
-	while lng !=wdth:
-		if lng > wdth:
-			lng -= wdth
-			ans.append(wdth)
-		elif wdth > lng:
-			wdth -= lng
-			ans.append(lng)
 
-	ans.append(lng)
-	return ans
+def sqInRect(lng, wdth):
+    if lng == wdth:
+        return None
+    ans = []
+    while lng != wdth:
+        if lng > wdth:
+            lng -= wdth
+            ans.append(wdth)
+        elif wdth > lng:
+            wdth -= lng
+            ans.append(lng)
+
+    ans.append(lng)
+    return ans
 
 # Test Cases
 

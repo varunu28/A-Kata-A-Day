@@ -1,5 +1,5 @@
-#Sum of numbers from 0 to N
-#Level: 7kyu
+# Sum of numbers from 0 to N
+# Level: 7kyu
 '''
 Problem Description: We want to generate a function that computes the series starting from 0 and ending untill
 the given number following the sequence:
@@ -41,24 +41,25 @@ Output:
 
 '''
 
+
 def show_sequence(n):
     if n < 0:
-    	return str(n) + '<0'
+        return str(n) + '<0'
     elif n == 0:
-    	return '0=0'
+        return '0=0'
     else:
-    	ans = ''
-    	i = 0
-    	ans_num = 0
-    	while i < n:
-    		ans = ans + str(i) + '+'
-    		ans_num += i
-    		i += 1
+        ans = ''
+        i = 0
+        ans_num = 0
+        while i < n:
+            ans = ans + str(i) + '+'
+            ans_num += i
+            i += 1
 
-    	ans = ans + str(n) + ' = ' + str(ans_num+n)
-    	return ans
+        ans = ans + str(n) + ' = ' + str(ans_num+n)
+        return ans
 
-#Test Cases
+# Test Cases
 print(show_sequence(-9))
 print(show_sequence(0))
 print(show_sequence(6))

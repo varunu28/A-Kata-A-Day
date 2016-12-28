@@ -33,32 +33,33 @@ If st is empty return "No participants".
 If n is greater than the number of participants then return "Not enough participants".
 '''
 
-def rank(st, we, n):
-	d = dict()
-	if len(st) == 0:
-		return "No participants"
-	st = st.split(',')
-	k = 0
-	
-	for i in st:
-		s = 0
-		for j in i:
-			s += ord(j.lower()) - 97 + 1
-		s += len(i)
-		d[i] = s*we[k]
-		k += 1
-	d = sorted(sorted(d), key=d.get, reverse=True)
 
-	if len(d) < n:
-		return "Not enough participants"
-	else:
-		return d[n-1]
+def rank(st, we, n):
+    d = dict()
+    if len(st) == 0:
+        return "No participants"
+    st = st.split(',')
+    k = 0
+
+    for i in st:
+        s = 0
+        for j in i:
+            s += ord(j.lower()) - 97 + 1
+        s += len(i)
+        d[i] = s*we[k]
+        k += 1
+    d = sorted(sorted(d), key=d.get, reverse=True)
+
+    if len(d) < n:
+        return "Not enough participants"
+    else:
+        return d[n-1]
 
 # Test Case
 
-print(rank("Addison,Jayden,Sofia,Michael,Andrew,Lily,Benjamin", [4, 2, 1, 4, 3, 1, 2], 4))
+print(rank("Addison,Jayden,Sofia,Michael,Andrew,Lily,Benjamin",
+           [4, 2, 1, 4, 3, 1, 2], 4))
 print(rank("Lagon,Lily", [1, 5], 2))
-print(rank("Addison,Jayden,Sofia,Michael,Andrew,Lily,Benjamin", [4, 2, 1, 4, 3, 1, 2], 8))
+print(rank("Addison,Jayden,Sofia,Michael,Andrew,Lily,Benjamin",
+           [4, 2, 1, 4, 3, 1, 2], 8))
 print(rank("", [4, 2, 1, 4, 3, 1, 2], 6))
-
-

@@ -9,6 +9,6 @@ which you will have to find.
 For example, if you get an input string "Hello world" and the character to find is "o", return 2.
 '''
 
+
 def string_counter(string, char):
     return string.count(char)
-

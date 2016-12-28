@@ -1,5 +1,5 @@
-#Lario and Muigi Pipe Problem
-#Level : 8kyu
+# Lario and Muigi Pipe Problem
+# Level : 8kyu
 '''
 Problem statement: Looks like some hoodlum plumber and his brother has been running around and 
 damaging your stages again.
@@ -21,14 +21,15 @@ Input: 1,3,5,6,7,8
 Output: 1,2,3,4,5,6,7,8
 '''
 
-def pipe_fix(a):
-	lower = a[0]
-	upper = a[-1]
-	ans = []
-	while lower <= upper:
-		ans.append(lower)
-		lower+=1
-	return ans
 
-a = [1,2,3,5,6,8,9]
+def pipe_fix(a):
+    lower = a[0]
+    upper = a[-1]
+    ans = []
+    while lower <= upper:
+        ans.append(lower)
+        lower += 1
+    return ans
+
+a = [1, 2, 3, 5, 6, 8, 9]
 print(pipe_fix(a))

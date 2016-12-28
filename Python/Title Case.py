@@ -19,23 +19,23 @@ Arguments (Other languages)
 
 '''
 
+
 def title_case(title, minor_words=''):
-	title_arr = title.split(' ')
-	minor_arr = minor_words.split(' ')
-	i = 0
-	while i < len(minor_arr):
-		minor_arr[i] = minor_arr[i].lower()
-		i += 1
+    title_arr = title.split(' ')
+    minor_arr = minor_words.split(' ')
+    i = 0
+    while i < len(minor_arr):
+        minor_arr[i] = minor_arr[i].lower()
+        i += 1
 
-	i = 0
-	while i < len(title_arr):
-		if title_arr[i].lower() not in minor_arr:
-			title_arr[i] = title_arr[i].title()
-		else:
-			if i == 0:
-				title_arr[i] = title_arr[i].title()
-			else:
-				title_arr[i] = title_arr[i].lower()
-		i += 1
-	return " ".join(title_arr)
-
+    i = 0
+    while i < len(title_arr):
+        if title_arr[i].lower() not in minor_arr:
+            title_arr[i] = title_arr[i].title()
+        else:
+            if i == 0:
+                title_arr[i] = title_arr[i].title()
+            else:
+                title_arr[i] = title_arr[i].lower()
+        i += 1
+    return " ".join(title_arr)

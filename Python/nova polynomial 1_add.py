@@ -12,27 +12,29 @@ In this kata add two polynomials:
 poly_add ( [1, 2], [1] ) = [2, 2]
 '''
 
-# return the sum of the two polynomials p1 and p2.  
+# return the sum of the two polynomials p1 and p2.
+
+
 def poly_add(p1, p2):
-	l1 = len(p1)
-	l2 = len(p2)
-	m = min(l1,l2)
-	ans = []
-	i = 0
-	while i < m:
-		ans.append(p1[i] + p2[i])
-		i += 1
-	if m == l1:
-		while i < l2:
-			ans.append(p2[i])
-			i += 1
-	else:
-		while i < l1:
-			ans.append(p1[i])
-			i += 1
-	return ans
+    l1 = len(p1)
+    l2 = len(p2)
+    m = min(l1, l2)
+    ans = []
+    i = 0
+    while i < m:
+        ans.append(p1[i] + p2[i])
+        i += 1
+    if m == l1:
+        while i < l2:
+            ans.append(p2[i])
+            i += 1
+    else:
+        while i < l1:
+            ans.append(p1[i])
+            i += 1
+    return ans
 
 # Test Case
 
-print(poly_add([1],[1]))
-print(poly_add([1,2],[1]))
+print(poly_add([1], [1]))
+print(poly_add([1, 2], [1]))

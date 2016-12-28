@@ -13,14 +13,15 @@ should return the correct case for the initial letter. For example, the input 's
 If a string contains all repeating characters, it should return the empty string ("").
 '''
 
+
 def first_non_repeating_letter(string):
-	low_str = []
-	for i in string:
-		low_str.append(i.lower())
-	for i in string:
-		if low_str.count(i.lower()) == 1:
-			return i
-	return ''
+    low_str = []
+    for i in string:
+        low_str.append(i.lower())
+    for i in string:
+        if low_str.count(i.lower()) == 1:
+            return i
+    return ''
 
 # Test Cases
 

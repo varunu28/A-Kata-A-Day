@@ -5,11 +5,12 @@ Problem Description: Given a string made of digits [0-9] returns a string where 
 a number of times equals to its value. 
 '''
 
+
 def explode(s):
-	ans = ''
-	for i in s:
-		ans += i*int(i)
-	return ans
+    ans = ''
+    for i in s:
+        ans += i*int(i)
+    return ans
 
 # Test Cases
 

@@ -9,22 +9,23 @@ given integer.
 For example, solution(20) should return [5, 2, 1]
 '''
 
-def solution(number):
-	only_3 = 0
-	only_5 = 0
-	both = 0
-	i = 1
-	while i < number:
-		if i%3 == 0 and i%5 == 0:
-			both += 1
-		elif i%3 == 0:
-			only_3 += 1
-		elif i%5 == 0:
-			only_5 += 1
-		i += 1
 
-	ans = [only_3, only_5, both]
-	return ans
+def solution(number):
+    only_3 = 0
+    only_5 = 0
+    both = 0
+    i = 1
+    while i < number:
+        if i % 3 == 0 and i % 5 == 0:
+            both += 1
+        elif i % 3 == 0:
+            only_3 += 1
+        elif i % 5 == 0:
+            only_5 += 1
+        i += 1
+
+    ans = [only_3, only_5, both]
+    return ans
 
 # Test Cases
 
@@ -32,5 +33,3 @@ print(solution(20))
 print(solution(2))
 print(solution(30))
 print(solution(300))
-
-

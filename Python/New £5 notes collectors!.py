@@ -6,6 +6,8 @@ Given a salary and the array of bills, calculate your disposable income for a mo
 
 £££ GOOD LUCK! £££
 '''
-def get_new_notes(salary,bills):
-    #your code here
-    return max(int((salary-sum(bills))/5),0)
+
+
+def get_new_notes(salary, bills):
+    # your code here
+    return max(int((salary-sum(bills))/5), 0)

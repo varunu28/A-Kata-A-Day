@@ -11,7 +11,8 @@ If input data is invalid you should return 0 (as in no breaks are needed if we d
 chocolate to split). Input will always be a non-negative integer.
 '''
 
+
 def breakChocolate(n, m):
-	if n.isnumeric() == False or m.isnumeric() == False or n*m <= 0:
-		return 0
-	return n*m - 1
+    if n.isnumeric() == False or m.isnumeric() == False or n*m <= 0:
+        return 0
+    return n*m - 1

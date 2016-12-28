@@ -19,23 +19,24 @@ e.g. If 4 is given: 1 + 3 + 6 + 10 = 20.
 Triangular Numbers cannot be negative so return 0 if a negative number is given.
 '''
 
-def sum_triangular_numbers(n):
-	s  = 0
-	i = 1
-	num = 0
-	while i <= n:
-		j = i
-		while j > 0:
-			num += 1
-			j -= 1
-		s += num
-		i += 1
-	return s 
 
-# Test Cases	
+def sum_triangular_numbers(n):
+    s = 0
+    i = 1
+    num = 0
+    while i <= n:
+        j = i
+        while j > 0:
+            num += 1
+            j -= 1
+        s += num
+        i += 1
+    return s
+
+# Test Cases
 
 print(sum_triangular_numbers(4))
-print(sum_triangular_numbers(34))	
+print(sum_triangular_numbers(34))
 print(sum_triangular_numbers(-291))
 print(sum_triangular_numbers(943))
 print(sum_triangular_numbers(-971))

@@ -14,20 +14,25 @@ Example of how the tests would work:
 	'/Users/person1/Pictures/'
 '''
 
+
 class FileMaster():
+
     def __init__(self, filepath):
         self.filepath = filepath
+
     def extension(self):
         return self.filepath[self.filepath.index('.')+1:]
+
     def filename(self):
         l = self.filepath[:self.filepath.index('.')]
         l_arr = l.split('/')
         return l_arr[-1]
+
     def dirpath(self):
-        #Your code here
+        # Your code here
         l = self.filepath[:self.filepath.index('.')]
         l_arr = l.split('/')
-        return '/'.join(l_arr[:len(l_arr)-1])+ '/'
+        return '/'.join(l_arr[:len(l_arr)-1]) + '/'
 
 # Test Case
 

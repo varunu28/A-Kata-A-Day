@@ -12,14 +12,15 @@ Example:
 find([3, 9, 1, 11, 13, 5]) # => 7
 '''
 
+
 def find(seq):
-	seq = sorted(seq)
-	d = (seq[-1] - seq[0])//len(seq)
-	i = 0
-	while i < len(seq) - 1:
-		if seq[i+1] - seq[i] != d:
-			return seq[i] + d
-		i += 1
+    seq = sorted(seq)
+    d = (seq[-1] - seq[0])//len(seq)
+    i = 0
+    while i < len(seq) - 1:
+        if seq[i+1] - seq[i] != d:
+            return seq[i] + d
+        i += 1
 
 # Test Cases
 

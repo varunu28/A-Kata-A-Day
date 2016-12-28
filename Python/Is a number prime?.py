@@ -18,16 +18,17 @@ Assumptions
     You can not assume that the integer will be only positive. You may be given negative numbers.
 '''
 
+
 def is_prime(num):
-	if num <= 1:
-		return False
-	if num == 2 or num == 3:
-		return True
-	if num % 2 == 0 or num % 3 == 0:
-		return False
-	j = 4
-	while j <= num/2:
-		if num % j == 0:
-			return False
-		j += 1
-	return True
+    if num <= 1:
+        return False
+    if num == 2 or num == 3:
+        return True
+    if num % 2 == 0 or num % 3 == 0:
+        return False
+    j = 4
+    while j <= num/2:
+        if num % j == 0:
+            return False
+        j += 1
+    return True

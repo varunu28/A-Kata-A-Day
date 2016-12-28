@@ -14,16 +14,17 @@ If the array has 0 or 1 values or is null or None, your method should return an 
 Have fun coding it and please don't forget to vote and rank this kata! :-)
 '''
 
+
 def averages(arr):
-	if arr is None:
-		return []
-	if len(arr) <= 1:
-		return []
-	ans = []
-	i = 0
-	while i < len(arr) - 1:
-		ans.append((arr[i] + arr[i+1])/2)
-		i += 1
-	return ans
+    if arr is None:
+        return []
+    if len(arr) <= 1:
+        return []
+    ans = []
+    i = 0
+    while i < len(arr) - 1:
+        ans.append((arr[i] + arr[i+1])/2)
+        i += 1
+    return ans
 
 print(averages([1, 3, 5, 1, -10]))

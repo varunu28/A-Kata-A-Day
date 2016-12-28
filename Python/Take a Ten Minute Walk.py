@@ -12,21 +12,22 @@ don't want to be early or late!) and will, of course, return you to your startin
     ('n', 's', 'e', or 'w' only). It will never give you an empty array (that's not a walk, that's standing still!).
 '''
 
+
 def isValidWalk(walk):
-	if len(walk) != 10:
-		return False
-	else:
-		x = y = 0
-		for i in walk:
-			if i == 'n':
-				x += 1
-			elif i == 's':
-				x -= 1
-			elif i == 'e':
-				y += 1
-			elif i == 'w':
-				y -= 1
-		if x == 0 and y == 0:
-			return True
-		else:
-			return False
+    if len(walk) != 10:
+        return False
+    else:
+        x = y = 0
+        for i in walk:
+            if i == 'n':
+                x += 1
+            elif i == 's':
+                x -= 1
+            elif i == 'e':
+                y += 1
+            elif i == 'w':
+                y -= 1
+        if x == 0 and y == 0:
+            return True
+        else:
+            return False

@@ -23,19 +23,21 @@ Examples
     or(false, false) should return false
 '''
 
-def func_or(a,b):
-    #your code here - do no be lame and do not use built-in code!
-    if a or b:
-    	return True
-    else:
-    	return False 
 
-def func_xor(a,b):
-    #your code here - remember to consider truthy and falsey value 
-    if (a and bool(b) == False) or (bool(a) == False and b):
-    	return True
+def func_or(a, b):
+    # your code here - do no be lame and do not use built-in code!
+    if a or b:
+        return True
     else:
-    	return False
+        return False
+
+
+def func_xor(a, b):
+    # your code here - remember to consider truthy and falsey value
+    if (a and bool(b) == False) or (bool(a) == False and b):
+        return True
+    else:
+        return False
 
 # Test Cases
 

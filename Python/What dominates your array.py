@@ -1,5 +1,5 @@
-#What dominates your array?
-#Level: 7kyu
+# What dominates your array?
+# Level: 7kyu
 '''
 Problem Statement: A zero-indexed array arr consisting of n integers is given. The dominator of 
 array arr is the value that occurs in more than half of the elements of arr.
@@ -13,10 +13,11 @@ returns the dominator of arr. The function should return −1 if array does not 
 All values in arr will be >=0.
 '''
 
-def dominator(arr):
-	for i in arr:
-		if arr.count(i) > len(arr)/2:
-			return i
-	return -1
 
-print(dominator([3,4,3,2,3,1,3,3]))
+def dominator(arr):
+    for i in arr:
+        if arr.count(i) > len(arr)/2:
+            return i
+    return -1
+
+print(dominator([3, 4, 3, 2, 3, 1, 3, 3]))

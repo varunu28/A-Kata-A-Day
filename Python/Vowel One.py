@@ -7,15 +7,16 @@ vowels become 1's and non-vowels become 0's.
 All non-vowels including non alpha characters (spaces,commas etc.) should be included.
 '''
 
+
 def vowel_one(s):
-	ans = []
-	vow = ['a', 'e', 'i' ,'o', 'u', 'A', 'E', 'I', 'O', 'U']
-	for i in s:
-		if i in vow:
-			ans.append('1')
-		else:
-			ans.append('0')
-	return ''.join(ans)
+    ans = []
+    vow = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+    for i in s:
+        if i in vow:
+            ans.append('1')
+        else:
+            ans.append('0')
+    return ''.join(ans)
 
 # Test Cases
 

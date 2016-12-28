@@ -12,16 +12,17 @@ getMean([1,3,2,4], 1, 2) should return -1 because x is not higher than 1.
 getMean([1,3,2,4], 2, 8) should return -1 because 8 is higher than the array's length.
 '''
 
-def get_mean(arr,x,y):
-	if x < 2 or y < 2 or x > len(arr) or y > len(arr):
-		return -1
 
-	return ((sum(arr[0:x])/x) + (sum(arr[-y:])/y))/2
+def get_mean(arr, x, y):
+    if x < 2 or y < 2 or x > len(arr) or y > len(arr):
+        return -1
+
+    return ((sum(arr[0:x])/x) + (sum(arr[-y:])/y))/2
 
 # Test Cases
 
-print(get_mean([1,3,2,4],2,3))
-print(get_mean([1,3,2],2,2))
-print(get_mean([1,3,2,4],1,2))
-print(get_mean([1,3,2,4],2,8))
-print(get_mean([1,-1,2,-1],2,3))
+print(get_mean([1, 3, 2, 4], 2, 3))
+print(get_mean([1, 3, 2], 2, 2))
+print(get_mean([1, 3, 2, 4], 1, 2))
+print(get_mean([1, 3, 2, 4], 2, 8))
+print(get_mean([1, -1, 2, -1], 2, 3))

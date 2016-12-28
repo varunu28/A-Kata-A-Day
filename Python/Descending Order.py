@@ -11,8 +11,9 @@ Input: 145263 Output: 654321
 Input: 1254859723 Output: 9875543221
 '''
 
+
 def Descending_Order(num):
-    #Bust a move right here
+    # Bust a move right here
     return int(''.join([str(i) for i in sorted([int(i) for i in list(str(num))], reverse=True)]))
 
 # Test Case

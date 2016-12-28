@@ -31,26 +31,27 @@ gap(4, 130, 200) --> [163, 167] or (163, 167) or {163, 167}
 gap(6,100,110) --> nil or {0, 0} : between 100 and 110 we have 101, 103, 107, 109 but 101-107is not a 6-gap because there is 103in between and 103-109is not a 6-gap because there is 107in between.
 '''
 
+
 def gap(g, m, n):
-	last_prime = 2
-	for i in range(m, n+1):
-		prime = True
+    last_prime = 2
+    for i in range(m, n+1):
+        prime = True
 
-		for j in range(2,int(n**.5)+1):
-		    if i%j == 0:
-		        prime = False
-		        break
+        for j in range(2, int(n**.5)+1):
+            if i % j == 0:
+                prime = False
+                break
 
-		if prime:
-		    if i - last_prime == g:
-		        return [last_prime,i]
-		    else:
-		    	last_prime = i
+        if prime:
+            if i - last_prime == g:
+                return [last_prime, i]
+            else:
+                last_prime = i
 
-# Test Cases		    	
+# Test Cases
 
-print(gap(2,100,110))
-print(gap(4,100,110))
-print(gap(6,100,110))
-print(gap(8,300,400))
-print(gap(10,300,400))
+print(gap(2, 100, 110))
+print(gap(4, 100, 110))
+print(gap(6, 100, 110))
+print(gap(8, 300, 400))
+print(gap(10, 300, 400))

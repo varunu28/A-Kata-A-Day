@@ -9,17 +9,18 @@ Ex: Input: 105 --> Output: "BangBoom" Ex: Input: 9 --> Output: "Bang" Ex:Input: 
 
 '''
 
-def multiple(x):
-	if x%3 == 0 and x%5 == 0:
-		return "BangBoom" 
-	elif x%3 == 0:
-		return "Bang"
-	elif x%5 == 0:
-		return "Boom"
-	else:
-		return "Miss"
 
-# Test Cases		
+def multiple(x):
+    if x % 3 == 0 and x % 5 == 0:
+        return "BangBoom"
+    elif x % 3 == 0:
+        return "Bang"
+    elif x % 5 == 0:
+        return "Boom"
+    else:
+        return "Miss"
+
+# Test Cases
 
 print(multiple(30))
 print(multiple(3))

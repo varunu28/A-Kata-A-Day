@@ -17,15 +17,16 @@ Examples:
 "(( @" => "))(("
 '''
 
+
 def duplicate_encode(word):
-	word = word.lower()
-	ans = ''
-	for i in word:
-		if word.count(i) == 1:
-			ans += '('
-		else:
-			ans += ')'
-	return ans
+    word = word.lower()
+    ans = ''
+    for i in word:
+        if word.count(i) == 1:
+            ans += '('
+        else:
+            ans += ')'
+    return ans
 
 # Test Cases
 

@@ -24,27 +24,28 @@ your text: "BORN IN 2015!", shift 1
 With longer passphrases it's better to have a small and easy program. Would you write it?
 '''
 
+
 def play_pass(s, m):
-	i = 0
-	ans = []
-	while i < len(s):
-		if s[i].isnumeric():
-			ans.append(str(abs(int(s[i]) - 9)))
-		elif ord(s[i]) >= 65 and ord(s[i]) <= 90:
-			n  = ord(s[i]) + m
-			if n > 90:
-				n = (n-90) + 64
+    i = 0
+    ans = []
+    while i < len(s):
+        if s[i].isnumeric():
+            ans.append(str(abs(int(s[i]) - 9)))
+        elif ord(s[i]) >= 65 and ord(s[i]) <= 90:
+            n = ord(s[i]) + m
+            if n > 90:
+                n = (n-90) + 64
 
-			if (i)%2 == 0:
-				ans.append(chr(n).upper())
-			else:
-				ans.append(chr(n).lower())
-		else:
-			ans.append(s[i])
-		i += 1
-	return ''.join(ans)[::-1]
+            if (i) % 2 == 0:
+                ans.append(chr(n).upper())
+            else:
+                ans.append(chr(n).lower())
+        else:
+            ans.append(s[i])
+        i += 1
+    return ''.join(ans)[::-1]
 
-# Test Case	
+# Test Case
 
 print(play_pass("I LOVE YOU!!!", 1))
 print(play_pass("MY GRANMA CAME FROM NY ON THE 23RD OF APRIL 2015", 2))

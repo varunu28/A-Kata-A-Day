@@ -21,23 +21,24 @@ The numbers are 2015, 6
 Sum is 2021.
 '''
 
+
 def sum_from_string(string):
-	s = 0
-	i = 0
-	n1 = ''
-	while i < len(string):
-		if string[i].isdigit():
-			n1 += string[i]
-		else:
-			if len(n1) > 0:
-				s += int(n1)
-				n1 = ''
-		i += 1
-		if i == len(string):
-			if len(n1) > 0:
-				s += int(n1)
-				n1 = ''
-	return s 
+    s = 0
+    i = 0
+    n1 = ''
+    while i < len(string):
+        if string[i].isdigit():
+            n1 += string[i]
+        else:
+            if len(n1) > 0:
+                s += int(n1)
+                n1 = ''
+        i += 1
+        if i == len(string):
+            if len(n1) > 0:
+                s += int(n1)
+                n1 = ''
+    return s
 
 # Test Cases
 

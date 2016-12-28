@@ -16,21 +16,22 @@ eve_fib(33)==10
 eve_fib(25997544)==19544084
 '''
 
+
 def even_fib(m):
-	if m == 0 or m == 1:
-		return 0
-	else:
-		arr = []
-		a = 0
-		b = 1
-		c = 0
-		while c < m:
-			c = a+b
-			if c%2 == 0 and c < m:
-				arr.append(c)
-			a = b
-			b = c
-		return sum(arr)
+    if m == 0 or m == 1:
+        return 0
+    else:
+        arr = []
+        a = 0
+        b = 1
+        c = 0
+        while c < m:
+            c = a+b
+            if c % 2 == 0 and c < m:
+                arr.append(c)
+            a = b
+            b = c
+        return sum(arr)
 
 # Test Cases
 

@@ -31,75 +31,78 @@ Characters in conditions will always be in the string. Characters in the string 
 string.ascii_letters+"@#$%^&*()_{}[]"
 '''
 
-def string_evaluation(strng,conditions):
-	ans = []
-	for i in conditions:
-		if '==' in i:
-			temp = i.split('==')
-			if temp[1].isnumeric() and temp[0].isnumeric():
-				ans.append(int(temp[0]) == int(temp[1]))
-			elif temp[1].isnumeric():
-				ans.append(strng.count(temp[0]) == int(temp[1]))
-			elif temp[0].isnumeric():
-				ans.append(int(temp[0]) == strng.count(temp[1]))
-			else:
-				ans.append(strng.count(temp[0]) == strng.count(temp[1]))
-		elif '!=' in i:
-			temp = i.split('!=')
-			if temp[1].isnumeric() and temp[0].isnumeric():
-				ans.append(int(temp[0]) != int(temp[1]))
-			elif temp[1].isnumeric():
-				ans.append(strng.count(temp[0]) != int(temp[1]))
-			elif temp[0].isnumeric():
-				ans.append(int(temp[0]) != strng.count(temp[1]))
-			else:
-				ans.append(strng.count(temp[0]) != strng.count(temp[1]))
-		elif '>=' in i:
-			temp = i.split('>=')
-			if temp[1].isnumeric() and temp[0].isnumeric():
-				ans.append(int(temp[0]) >= int(temp[1]))
-			elif temp[1].isnumeric():
-				ans.append(strng.count(temp[0]) >= int(temp[1]))
-			elif temp[0].isnumeric():
-				ans.append(int(temp[0]) >= strng.count(temp[1]))
-			else:
-				ans.append(strng.count(temp[0]) >= strng.count(temp[1]))
-		elif '<=' in i:
-			temp = i.split('<=')
-			if temp[1].isnumeric() and temp[0].isnumeric():
-				ans.append(int(temp[0]) <= int(temp[1]))	
-			elif temp[1].isnumeric():
-				ans.append(strng.count(temp[0]) <= int(temp[1]))
-			elif temp[0].isnumeric():
-				ans.append(int(temp[0]) <= strng.count(temp[1]))
-			else:
-				ans.append(strng.count(temp[0]) <= strng.count(temp[1]))
-		elif '>' in i:
-			temp = i.split('>')
-			if temp[1].isnumeric() and temp[0].isnumeric():
-				ans.append(int(temp[0]) > int(temp[1]))
-			elif temp[1].isnumeric():
-				ans.append(strng.count(temp[0]) > int(temp[1]))
-			elif temp[0].isnumeric():
-				ans.append(int(temp[0]) > strng.count(temp[1]))
-			else:
-				ans.append(strng.count(temp[0]) > strng.count(temp[1]))
-		elif '<' in i:
-			temp = i.split('<')
-			if temp[1].isnumeric() and temp[0].isnumeric():
-				ans.append(int(temp[0]) < int(temp[1]))
-			elif temp[1].isnumeric():
-				ans.append(strng.count(temp[0]) < int(temp[1]))
-			elif temp[0].isnumeric():
-				ans.append(int(temp[0]) < strng.count(temp[1]))
-			else:
-				ans.append(strng.count(temp[0]) < strng.count(temp[1]))
-		
-	return ans
 
-# Test Cases	
+def string_evaluation(strng, conditions):
+    ans = []
+    for i in conditions:
+        if '==' in i:
+            temp = i.split('==')
+            if temp[1].isnumeric() and temp[0].isnumeric():
+                ans.append(int(temp[0]) == int(temp[1]))
+            elif temp[1].isnumeric():
+                ans.append(strng.count(temp[0]) == int(temp[1]))
+            elif temp[0].isnumeric():
+                ans.append(int(temp[0]) == strng.count(temp[1]))
+            else:
+                ans.append(strng.count(temp[0]) == strng.count(temp[1]))
+        elif '!=' in i:
+            temp = i.split('!=')
+            if temp[1].isnumeric() and temp[0].isnumeric():
+                ans.append(int(temp[0]) != int(temp[1]))
+            elif temp[1].isnumeric():
+                ans.append(strng.count(temp[0]) != int(temp[1]))
+            elif temp[0].isnumeric():
+                ans.append(int(temp[0]) != strng.count(temp[1]))
+            else:
+                ans.append(strng.count(temp[0]) != strng.count(temp[1]))
+        elif '>=' in i:
+            temp = i.split('>=')
+            if temp[1].isnumeric() and temp[0].isnumeric():
+                ans.append(int(temp[0]) >= int(temp[1]))
+            elif temp[1].isnumeric():
+                ans.append(strng.count(temp[0]) >= int(temp[1]))
+            elif temp[0].isnumeric():
+                ans.append(int(temp[0]) >= strng.count(temp[1]))
+            else:
+                ans.append(strng.count(temp[0]) >= strng.count(temp[1]))
+        elif '<=' in i:
+            temp = i.split('<=')
+            if temp[1].isnumeric() and temp[0].isnumeric():
+                ans.append(int(temp[0]) <= int(temp[1]))
+            elif temp[1].isnumeric():
+                ans.append(strng.count(temp[0]) <= int(temp[1]))
+            elif temp[0].isnumeric():
+                ans.append(int(temp[0]) <= strng.count(temp[1]))
+            else:
+                ans.append(strng.count(temp[0]) <= strng.count(temp[1]))
+        elif '>' in i:
+            temp = i.split('>')
+            if temp[1].isnumeric() and temp[0].isnumeric():
+                ans.append(int(temp[0]) > int(temp[1]))
+            elif temp[1].isnumeric():
+                ans.append(strng.count(temp[0]) > int(temp[1]))
+            elif temp[0].isnumeric():
+                ans.append(int(temp[0]) > strng.count(temp[1]))
+            else:
+                ans.append(strng.count(temp[0]) > strng.count(temp[1]))
+        elif '<' in i:
+            temp = i.split('<')
+            if temp[1].isnumeric() and temp[0].isnumeric():
+                ans.append(int(temp[0]) < int(temp[1]))
+            elif temp[1].isnumeric():
+                ans.append(strng.count(temp[0]) < int(temp[1]))
+            elif temp[0].isnumeric():
+                ans.append(int(temp[0]) < strng.count(temp[1]))
+            else:
+                ans.append(strng.count(temp[0]) < strng.count(temp[1]))
+
+    return ans
+
+# Test Cases
 
 print(string_evaluation('aab#HcCcc##l#', ['a<b', '#==4', 'c>=C', 'H!=a']))
 print(string_evaluation('abc#$%KDAyyaa@@@', ['#>@', 'A==2', 'a>A', '$!=2']))
-print(string_evaluation('abb', ['a>b', 'b==a', 'b<=a', 'b>a', 'b!=b', 'a==1', 'b==1']))
-print(string_evaluation('abb', ['a>b', 'b==a', 'b<=a', 'b>a', 'b!=b', 'a==1', 'b==1', '2==2', '5>=4']))
+print(string_evaluation(
+    'abb', ['a>b', 'b==a', 'b<=a', 'b>a', 'b!=b', 'a==1', 'b==1']))
+print(string_evaluation(
+    'abb', ['a>b', 'b==a', 'b<=a', 'b>a', 'b!=b', 'a==1', 'b==1', '2==2', '5>=4']))

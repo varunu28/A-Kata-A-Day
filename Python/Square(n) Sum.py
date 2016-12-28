@@ -9,7 +9,8 @@ For example:
 square_sum([1, 2, 2]) # should return 9
 '''
 
+
 def square_sum(numbers):
-	return sum([i*i for i in numbers])
+    return sum([i*i for i in numbers])
 
 print(square_sum([0, 3, 4, 5]))

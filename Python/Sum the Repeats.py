@@ -1,5 +1,5 @@
-#Sum the Repeats
-#Level: 7kyu
+# Sum the Repeats
+# Level: 7kyu
 '''
 Problem Statement: Write a function that takes a list comprised of other lists of integers and 
 returns the sum of all numbers that appear in two or more lists in the input list. Now that might 
@@ -18,29 +18,30 @@ sum of [1,8]
 return 9
 '''
 
-def repeat_sum(l):
-    
-    if len(l) <= 1:
-    	return 0
 
-    temp_full =[]
+def repeat_sum(l):
+
+    if len(l) <= 1:
+        return 0
+
+    temp_full = []
     for temp in l:
-    	mid = []
-    	for i in temp:
-    		if i not in mid:
-    			mid.append(i)
-    	temp_full.append(mid)
-    
+        mid = []
+        for i in temp:
+            if i not in mid:
+                mid.append(i)
+        temp_full.append(mid)
+
     full = []
     for i in temp_full:
-    	for j in i:
-    		full.append(j)
+        for j in i:
+            full.append(j)
 
     sum_arr = []
     for j in full:
-    	if full.count(j) > 1 and j not in sum_arr:
-    		sum_arr.append(j)
+        if full.count(j) > 1 and j not in sum_arr:
+            sum_arr.append(j)
 
     return sum(sum_arr)
 
-print(repeat_sum([[1, 2, 3],[2, 8, 9],[7, 123, 8]])) 
+print(repeat_sum([[1, 2, 3], [2, 8, 9], [7, 123, 8]]))

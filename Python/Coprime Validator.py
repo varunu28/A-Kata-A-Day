@@ -22,25 +22,26 @@ If the two inputs are coprime, your program should return true. If they are not 
 should return false.
 '''
 
-def are_coprime(n,m):
-	fact = []
-	i = 1
-	while i <= min(n,m)//2:
-		if min(n,m)%i == 0:
-			fact.append(i)
-		i += 1
-	fact.append(min(n,m))
 
-	i = 1
-	while i <= max(n,m)//2:
-		if max(n,m)%i == 0:
-			if i != 1 and i in fact:
-				return False
-		i += 1
-	return True
+def are_coprime(n, m):
+    fact = []
+    i = 1
+    while i <= min(n, m)//2:
+        if min(n, m) % i == 0:
+            fact.append(i)
+        i += 1
+    fact.append(min(n, m))
+
+    i = 1
+    while i <= max(n, m)//2:
+        if max(n, m) % i == 0:
+            if i != 1 and i in fact:
+                return False
+        i += 1
+    return True
 
 # Test Cases
 
-print(are_coprime(20,27))
-print(are_coprime(12,39))
-print(are_coprime(17,34))
+print(are_coprime(20, 27))
+print(are_coprime(12, 39))
+print(are_coprime(17, 34))

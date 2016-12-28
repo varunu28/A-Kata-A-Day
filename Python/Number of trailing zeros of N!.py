@@ -10,12 +10,13 @@ zeros(12) = 2 # 1 * 2 * 3 .. 12 = 479001600
 that has 2 trailing zeros 4790016(00)
 '''
 
+
 def zeros(n):
-	count = 0
-	while n > 0:
-		count += n//5
-		n = n//5
-	return count
+    count = 0
+    while n > 0:
+        count += n//5
+        n = n//5
+    return count
 
 # Test Cases
 

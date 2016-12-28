@@ -8,5 +8,6 @@ Example: The binary representation of 1234 is 10011010010, so the function shoul
 case
 '''
 
+
 def countBits(n):
-	return str(bin(n)).count('1')
+    return str(bin(n)).count('1')

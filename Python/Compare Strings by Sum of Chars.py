@@ -26,26 +26,27 @@ null, "" -> equal
 Your method should return true, if the strings are equal and fals if they are not equal.
 '''
 
-def compare(s1,s2):
-    #your code here
-    
+
+def compare(s1, s2):
+    # your code here
+
     if (s1 is None and s2 is None) or (s1 is None and len(s2) == 0) or (len(s1) == 0 or s2 is None):
-    	return True
+        return True
     if (s1 is None and s2 is not None) or (s1 is not None and s2 is None):
-    	return False
+        return False
     if s1.isalpha() == False:
-    	s1 = ''
+        s1 = ''
     if s2.isalpha() == False:
-    	s2 = ''
+        s2 = ''
 
     sum1 = 0
     sum2 = 0
 
     for i in s1:
-    	sum1 += ord(i.upper())
+        sum1 += ord(i.upper())
 
     for i in s2:
-    	sum2 += ord(i.upper())
+        sum2 += ord(i.upper())
 
     return sum1 == sum2
 
@@ -61,5 +62,3 @@ print(compare("kl", "lz"))
 print(compare(None, ""))
 print(compare("!!", "7476"))
 print(compare("##", "1176"))
-
-

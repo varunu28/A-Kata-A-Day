@@ -12,16 +12,16 @@ Problem Description: What is an anagram? Well, two words are anagrams of each ot
 Write a function that will find all the anagrams of a word from a list. You will be given two inputs a word and an array with words. You should return an array of all the anagrams or an empty array if there are none. 
 '''
 
+
 def anagrams(word, words):
-	word_arr = sorted(list(word))
-	ans = []
-	for i in words:
-		if sorted(list(i)) ==  word_arr:
-			ans.append(i)
-	return ans
+    word_arr = sorted(list(word))
+    ans = []
+    for i in words:
+        if sorted(list(i)) == word_arr:
+            ans.append(i)
+    return ans
 
 # Test Cases
 
 print(anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada']))
 print(anagrams('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']))
-

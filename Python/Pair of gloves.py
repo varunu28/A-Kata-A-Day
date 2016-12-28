@@ -21,23 +21,25 @@ red_gloves = ["red","red","red","red","red","red"];
 number_of_pairs(red_gloves) == 3; // 3 red pairs
 '''
 
-def number_of_pairs(gloves):
-	count = 0
-	gloves = sorted(gloves)
 
-	i = 0
-	while i < len(gloves)-1:
-		if gloves[i] == gloves[i+1]:
-			count += 1
-			i += 2
-		else:
-			i += 1
-	return count
+def number_of_pairs(gloves):
+    count = 0
+    gloves = sorted(gloves)
+
+    i = 0
+    while i < len(gloves)-1:
+        if gloves[i] == gloves[i+1]:
+            count += 1
+            i += 2
+        else:
+            i += 1
+    return count
 
 # Test Cases
 
-print(number_of_pairs(["red","red"]))
-print(number_of_pairs(["red","green","blue"]))
-print(number_of_pairs(["gray","black","purple","purple","gray","black"]))
+print(number_of_pairs(["red", "red"]))
+print(number_of_pairs(["red", "green", "blue"]))
+print(number_of_pairs(["gray", "black", "purple", "purple", "gray", "black"]))
 print(number_of_pairs([]))
-print(number_of_pairs(["red","green","blue","blue","red","green","red","red","red"]))
+print(number_of_pairs(
+    ["red", "green", "blue", "blue", "red", "green", "red", "red", "red"]))

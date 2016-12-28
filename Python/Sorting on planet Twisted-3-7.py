@@ -22,27 +22,30 @@ You should not modify the input array!
 '''
 
 # Swapping Value Function
+
+
 def adj_arr(arr):
-	new_arr = []
-	i = 0
-	while i < len(arr):
-		j = 0
-		str_i = list(str(arr[i]))
-		while j < len(str_i):
-			if str_i[j] == '7':
-				str_i[j] = '3'
-			elif str_i[j] == '3':
-				str_i[j] = '7'
-			j += 1
-		new_arr.append(int(''.join(str_i)))
-		i += 1
-	return new_arr
+    new_arr = []
+    i = 0
+    while i < len(arr):
+        j = 0
+        str_i = list(str(arr[i]))
+        while j < len(str_i):
+            if str_i[j] == '7':
+                str_i[j] = '3'
+            elif str_i[j] == '3':
+                str_i[j] = '7'
+            j += 1
+        new_arr.append(int(''.join(str_i)))
+        i += 1
+    return new_arr
+
 
 def sort_twisted37(arr):
-	return adj_arr(sorted(adj_arr(arr)))
+    return adj_arr(sorted(adj_arr(arr)))
 
 # Test Cases
 
-print(sort_twisted37([1,2,3,4,5,6,7,8,9]))
-print(sort_twisted37([12,13,14]))
-print(sort_twisted37([9,2,4,7,3]))
+print(sort_twisted37([1, 2, 3, 4, 5, 6, 7, 8, 9]))
+print(sort_twisted37([12, 13, 14]))
+print(sort_twisted37([9, 2, 4, 7, 3]))

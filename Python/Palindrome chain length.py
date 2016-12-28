@@ -20,16 +20,17 @@ For example, start with 87:
 4884 is a palindrome and we needed 4 steps to obtain it, so palindrome_chain_length(87) == 4
 '''
 
+
 def palindrome_chain_length(n):
     # parameter n is a positive integer
     # your function should return the number of steps
     count = 0
     if str(n) == str(n)[::-1]:
-    	return count
+        return count
     else:
-    	while str(n) != str(n)[::-1]:
-    		n = n + int(str(n)[::-1])
-    		count += 1
-    	return count
+        while str(n) != str(n)[::-1]:
+            n = n + int(str(n)[::-1])
+            count += 1
+        return count
 
 print(palindrome_chain_length(87))
