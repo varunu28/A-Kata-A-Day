@@ -102,6 +102,10 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 94. Thinkful - Number Drills: Does it divide?
 95. Frequency sequence
 96. Thinkful - Number Drills: Blue and red marbles
+97. Find the stray number
+98. Recursive reverse string
+99. Counting Duplicates
+100. All Star Code Challenge #1
 
 
 ###JAVASCRIPT
