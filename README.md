@@ -106,6 +106,9 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 98. Recursive reverse string
 99. Counting Duplicates
 100. All Star Code Challenge #1
+101. Thinkful - String Drills: Areacode extractor
+102. Retrieve array value by index with default
+103. All Star Code Challenge #9
 
 
 ###JAVASCRIPT
