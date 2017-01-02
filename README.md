@@ -110,7 +110,7 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 102. Retrieve array value by index with default
 103. All Star Code Challenge #9
 104. All Star Code Challenge #2
-
+105. Drunk friend
 
 ###JAVASCRIPT
 
