@@ -111,6 +111,8 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 103. All Star Code Challenge #9
 104. All Star Code Challenge #2
 105. Drunk friend
+106. All Star Code Challenge #4
+107. Replace With Alphabet Position
 
 ###JAVASCRIPT
 
