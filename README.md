@@ -113,6 +113,9 @@ problems I solve here and I aim to solve a Kata a day. I will also be using Pyth
 105. Drunk friend
 106. All Star Code Challenge #4
 107. Replace With Alphabet Position
+108. Mumbling
+109. All Star Code Challenge #6
+110. Make a function that does arithmetic!
 
 ###JAVASCRIPT
 
