@@ -4,3 +4,5 @@
 2. Find divisors number
 3. Find the unique number
 4. Shortest Word
+5. Money, Money, Money
+6. Are we alternate?
