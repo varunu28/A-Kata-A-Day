@@ -6,3 +6,4 @@
 4. Shortest Word
 5. Money, Money, Money
 6. Are we alternate?
+7. Convert a linked list to a string
