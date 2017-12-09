@@ -7,3 +7,4 @@
 5. Money, Money, Money
 6. Are we alternate?
 7. Convert a linked list to a string
+8. Sequences and Series
