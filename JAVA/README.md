@@ -8,3 +8,5 @@
 6. Are we alternate?
 7. Convert a linked list to a string
 8. Sequences and Series
+9. Odd or Even
+10. Unique Substring From Joined Strings
