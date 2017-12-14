@@ -11,3 +11,4 @@
 9. Odd or Even
 10. Unique Substring From Joined Strings
 11. Scaling Squared Strings
+12. Remove First and Last Character
