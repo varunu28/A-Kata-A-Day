@@ -12,3 +12,4 @@
 10. Unique Substring From Joined Strings
 11. Scaling Squared Strings
 12. Remove First and Last Character
+13. Composing squared strings
