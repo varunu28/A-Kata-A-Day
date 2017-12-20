@@ -13,3 +13,4 @@
 11. Scaling Squared Strings
 12. Remove First and Last Character
 13. Composing squared strings
+14. Rotate Array
