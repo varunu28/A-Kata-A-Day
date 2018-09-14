@@ -14,3 +14,5 @@
 12. Remove First and Last Character
 13. Composing squared strings
 14. Rotate Array
+15. Find Max Tree Node
+16. Fun with trees: max sum
