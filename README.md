@@ -7,7 +7,7 @@ I have taken a challenge to solve 1 Kata everyday from CodeWars. I will be stori
 
 |    Programming Language  |    Kata Count  | 
 |----------|:-------------:|
-| [Go](https://github.com/varunu28/A-Kata-A-Day/tree/master/Go) | 3 |
+| [Go](https://github.com/varunu28/A-Kata-A-Day/tree/master/Go) | 4 |
 | [JAVA](https://github.com/varunu28/A-Kata-A-Day/tree/master/JAVA) | 16 | 
 | [Python](https://github.com/varunu28/A-Kata-A-Day/tree/master/Python) | 110 | 
 | [JavaScript](https://github.com/varunu28/A-Kata-A-Day/tree/master/Javascript) | 70 | 
