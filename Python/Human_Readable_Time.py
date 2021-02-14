@@ -15,15 +15,6 @@ You can find some examples in the test fixtures.
 
 
 def make_readable(seconds):
-    hr = 0
-    m = 0
-    sec = 0
-    hr = seconds//3600
-    seconds = seconds % 3600
-    m = seconds//60
-    seconds = seconds % 60
-    sec = seconds
-
-    return '{:02d}'.format(hr) + ':' + '{:02d}'.format(m) + ':' + '{:02d}'.format(sec)
+    return '{:02}:{:02}:{:02}'.format(seconds // 3600, seconds // 60 % 60, seconds % 60)
 
 print(make_readable(60))
