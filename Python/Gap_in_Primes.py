@@ -55,3 +55,30 @@ print(gap(4, 100, 110))
 print(gap(6, 100, 110))
 print(gap(8, 300, 400))
 print(gap(10, 300, 400))
+
+
+# The above codes do not return the desrired outputs. For example when you enter [8, 5, 13] it returns None istead of [5, 13]. 
+# To solve this bug, I have firstly used    "if i - sample_prime == g and sample_prime in range(m, n + 1):". However, this has not
+# solved other bugs - (10, 600, 700) should retun [607, 617], yours returns [631, 641]. Therefore, I suggest a completely different 
+# code. 
+
+def prime(start,stop):
+    prime_list = []
+    for i in range(start, stop + 1):
+        for ii in range(2, int(i ** 0.5) + 1):
+            if i % ii == 0:
+                break
+        else:
+            prime_list.append(i)
+    return prime_list
+
+def prime_gap(start, stop, gap):
+    prime_list = prime(start, stop)
+    for x in range(len(prime_list)):
+        for y in range(x):
+            if prime_list[x] - prime_list[y] == gap:
+                return prime_list[y], prime_list[x]
+    else:
+        return "None"
+            
+print(prime_gap(600, 700, 10))
